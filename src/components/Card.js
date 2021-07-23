@@ -2,11 +2,11 @@ import React from 'react';
 import './Card.css';
 
 const Card = props => (
-    <div className="Card">
-        <img src={props.image} />
-        <h3>{props.title}</h3>
-        <p>{props.text}</p>
-    </div>
-)
+  <div className="Card">
+    <img alt="Card Img Text" src={props.image} />
+    <h3>{props.title}</h3>
+    <p>{props.text}</p>
+  </div>
+);
 
 export default Card;
